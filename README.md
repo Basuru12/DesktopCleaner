@@ -19,3 +19,36 @@ When you run the script, it will create (if missing) these folders in the curren
 - `JPGimages` → `.jpg`, `.jpeg`
 - `PDFfiles` → `.pdf`
 - `Filmora` → `.wfp`
+
+  ## 🚀 Usage
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/file-sorter.git
+   cd file-sorter
+Place the file_sorter.py script in the folder containing the files you want to sort.
+
+Run the script:
+
+bash
+Copy
+Edit
+python file_sorter.py
+Your files will be moved into their corresponding folders.
+
+⚙️ Requirements
+Python 3.7+
+
+No third-party dependencies (uses only built-in libraries)
+
+📝 How It Works
+The script looks for files in the current working directory.
+
+It checks the file’s extension against a predefined mapping of extensions to folders.
+
+If a match is found:
+
+Creates the destination folder if it doesn’t exist
+
+Moves the file to that folder
+
+If a file with the same name exists, renames it to avoid overwriting
